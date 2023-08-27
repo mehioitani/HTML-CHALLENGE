@@ -1,0 +1,237 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+body{
+background-color: rgb(46, 103, 154);
+}
+
+.margin {
+    margin:10px 70px ;
+}
+
+#image {
+    background: url(./img/earthjpg) no-repeat center center;
+    width: 92%;
+    height: 500px;
+}
+
+#titles {
+    /* border: 2px solid red; */
+    bottom: 670px;
+    position: absolute;
+    /* padding: 20px 20px 40px 20px; */
+    font-size: 15px;
+    color: #fff;
+    font-weight: 900;
+    text-align: left;
+    height: 50px;
+    margin-left: 120px;
+    line-height: 5em;
+}
+#titles h3 {
+    font-size: 25px;
+}
+
+nav {
+    background: rgb(24, 66, 102);
+    
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-align: center;
+/* border: 2px solid red; */
+/* text-align: center; */
+}
+
+#navbar ul li {
+    /* border: 2px solid red; */
+    border-left: 1px solid gray;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+
+}
+
+#navbar ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    /* border: 2px solid red; */
+    font-size: 25px;
+}
+
+#main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width: 9%;
+
+}
+
+#main-menu h1 {
+    margin: 10px;
+    color:#fff;
+    font-size: 25px;
+}
+
+#main-menu ul {
+    margin: 15px;
+}
+
+#main-menu ul li {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#main-menu ul li a {
+ color:#fff;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#gallery {
+    text-align: left;
+    width: 80%;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+#gallery h1 {
+margin-bottom: 35px;
+font-size: 25px;
+padding-bottom: 10px;
+border-bottom: 1px solid gray;
+}
+
+
+#block {
+    width: 9%;
+    color: #fff;
+    margin-top: 70px;
+
+}
+
+#block h1 {
+    margin-bottom: 35px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#block h3 {
+    margin-bottom: 15px;
+    line-height: 1.2em;
+}
+
+#block p {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+
+#other {
+	display: flex;
+	flex-direction: row;
+}
+#sub {
+    width: 40%;
+    margin-top: 65px;
+    text-align: left;
+    line-height: 2em;
+    font-size: 20px;
+    color: #fff;
+    border-right: 1px solid gray;
+    padding-right: 15px;
+}
+
+#services {
+    width: 40%;
+    margin-top: 65px;
+    text-align: left;
+    line-height: 2em;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+button {
+border: 1px solid gray;
+padding: 10px;
+color: black;
+margin-top: 10px;
+cursor: pointer;
+background-color: #49c1a2;
+font-size: 20px;
+font-weight: 500;
+}
+
+button:hover {
+background: #37a08e
+}
+
+.form-wrap {
+    padding: 15px 620px;
+    color: #fff;
+    width: 60%;
+    border-top: 1px solid gray;
+    margin-top: 10px;
+  }
+  
+  .form-wrap h1 {
+    text-align: center;
+    margin-right: 570px;
+    margin-top: 20px;
+  }
+  
+  .form-wrap .form-group {
+    margin-top: 15px;
+
+  }
+  
+  .form-wrap .form-group label {
+    display: block;
+    color: #fff;
+  }
+  
+  .form-wrap .form-group input {
+    width: 50%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+  }
+  
+  .form-wrap button {
+    width: 575px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  #radio {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+
+  #radio label {
+    margin: 0;
+  }
+  #radio input {
+    padding: 0px;
+    margin: 0px;
+  }
+footer {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+}  
